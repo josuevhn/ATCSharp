@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATCSharp
 {
-    class Airship : Aerostat
+    sealed class Airship : Aerostat
     {
 
         public Airship() : base() { }

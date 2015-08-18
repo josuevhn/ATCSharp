@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATCSharp
 {
-    class Helicopter : Aerodyne, Rotorcraft
+    sealed class Helicopter : Aerodyne, Rotorcraft
     {
 
         public Helicopter() { }

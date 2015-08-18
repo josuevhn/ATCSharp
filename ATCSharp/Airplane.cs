@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATCSharp
 {
-    class Airplane : Aerodyne, FixedWing
+    sealed class Airplane : Aerodyne, FixedWing
     {
 
         public Airplane() { }
